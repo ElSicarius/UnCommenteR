@@ -15,9 +15,9 @@ var unhide = function(){
 	content = document.documentElement.innerHTML;
 	lines = content.split('\n');
 	for ( var i = 0; i < lines.length; i++){
-		match = lines[i].match(/class="[^"]*?hide[^"]*?/g);
+		match = lines[i].match(/class="[^"]*?hidd?e[^"]*?/g);
 		if (match){
-			lines[i] = lines[i].replace("hide","reveal_");
+			lines[i] = lines[i].replace(/hidd?e/g,"reveal_");
 		}
 	}
 
