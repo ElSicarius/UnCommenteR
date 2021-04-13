@@ -1,7 +1,7 @@
 # UnCommenteR
 A chrome extension to uncomment hidden stuff in the html
 
-install link: comming
+install link: https://chrome.google.com/webstore/detail/uncommenter/dakbdekmmaendfjkpedbcekghhiabjli/related
 
 from the sources: 
 - clone the repo
