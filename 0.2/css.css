@@ -1,0 +1,8 @@
+/* Optional custom styles (in addition to Bootstrap) */
+
+body {
+	min-width: 280px;
+	max-width: 400px;
+	font-family: Arial, sans-serif;
+  }
+  
